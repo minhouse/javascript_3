@@ -1,0 +1,17 @@
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* 左揃え */
+  height: 70vh;
+  text-align: left;
+  margin-left: 300px; /* 中央に要素を配置する*/
+  font-family: "Meiryo";
+}
+
+h1 {
+  text-align: left;
+  margin-left: 0; /* マージンを0に設定 */
+  margin-right: auto; /* 右側のマージンを自動に設定 */
+  font-family: "Meiryo";
+}
