@@ -46,7 +46,3 @@ form input[type="checkbox"] {
 .task-item input[type="button"] {
   margin-left: 10px;
 }
-
-.task-item-progress {
-  background-color: #ffd3d3;
-}
