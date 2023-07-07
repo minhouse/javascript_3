@@ -2,16 +2,51 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start; /* 左揃え */
+  align-items: flex-start;
   height: 70vh;
   text-align: left;
-  margin-left: 300px; /* 中央に要素を配置する*/
+  margin-left: 300px;
   font-family: "Meiryo";
 }
 
 h1 {
   text-align: left;
-  margin-left: 0; /* マージンを0に設定 */
-  margin-right: auto; /* 右側のマージンを自動に設定 */
+  margin-left: 0;
+  margin-right: auto;
   font-family: "Meiryo";
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-container input[type="text"] {
+  width: 180px;
+  margin-right: 10px;
+}
+
+.input-container input[type="button"] {
+  width: auto;
+}
+
+.task-item {
+  margin-bottom: 5px;
+}
+
+.task-item input[type="button"] {
+  margin-left: 10px;
+}
+
+.task-item-progress {
+  background-color: #ffd3d3;
 }
