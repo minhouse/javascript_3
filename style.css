@@ -40,9 +40,13 @@ form input[type="checkbox"] {
 }
 
 .task-item {
-  margin-bottom: 5px;
+  margin-bottom: 10px; /* スペースを広く調整 */
 }
 
 .task-item input[type="button"] {
   margin-left: 10px;
+}
+
+.task-item span {
+  margin-right: 30px; /* 入力テキストと作業中ボタンの間のスペースを広く調整 */
 }
